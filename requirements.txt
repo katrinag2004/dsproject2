@@ -1,3 +1,4 @@
 Flask>=2.0
 requests>=2.0
 pandas>=1.0 # Or remove if using standard 'csv' module
+google-generativeai>=0.5
