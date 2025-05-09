@@ -18,7 +18,7 @@ curl -X POST http://34.123.254.41:5000/chat \
      -d '{"message":"top songs by Taylor Swift"}'
 
 Bot Returns:
-  "response": "**Most-streamed songs by Taylor Swift**\n 1. Cruel Summer  -  Lover  2. Fortnight (feat. Post Malone)  -  THE TORTURED POETS DEPARTMENT 3. cardigan  -  folklore 4. august  -  folklore 5. Lover  -  Lover 6. Blank Space  -  1989 7. I Can Do It With a Broken Heart  -  THE TORTURED POETS DEPARTMENT  8. I Don\u2019t Wanna Live Forever (Fifty Shades Darker)  -  reputation Stadium Tour Surprise Song Playlist 9. Dont Blame Me  -  reputation 10. Anti-Hero  -  Midnights"
+  "response": "**Most-streamed songs by Taylor Swift** 1. Cruel Summer  -  Lover  2. Fortnight (feat. Post Malone)  -  THE TORTURED POETS DEPARTMENT 3. cardigan  -  folklore 4. august  -  folklore 5. Lover  -  Lover 6. Blank Space  -  1989 7. I Can Do It With a Broken Heart  -  THE TORTURED POETS DEPARTMENT  8. I Dont Wanna Live Forever (Fifty Shades Darker)  -  reputation Stadium Tour Surprise Song Playlist 9. Dont Blame Me  -  reputation 10. Anti-Hero  -  Midnights"
 
 Gemini Response:
 curl -X POST http://34.123.254.41:5000/chat \
