@@ -133,16 +133,10 @@ def chat():
 def home():
     return "Chatbot is running."
 
-# ------------------------------------------------------------
 # 6.  CLI (run server or ETL)
-# ------------------------------------------------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Spotify‑Gemini chatbot demo.")
     parser.add_argument("--run-etl", action="store_true", help="(placeholder) run ETL then exit")
     args = parser.parse_args()
 
-    if args.run_etl:
-        from your_module_name import run_etl_pipeline   # keep your existing ETL functions
-        run_etl_pipeline()
-    else:
-        app.run(host="0.0.0.0", port=5001, debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=True)
