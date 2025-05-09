@@ -4,6 +4,11 @@ A Flask-based chatbot assistant for Discovering New Music
 Ask the bot for an artist's most popular songs, and it will return their top 10 songs on Spotify.
 Any other requests will be handled by GeminiAI, making the chatbot useful for a myriad of tasks.
 
+Original Local Dataset: https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs
+Cleaned using the cleanup.ipynb ETL script
+
+Integrated with the Spotify API
+
 How to use the bot: From the command line, type:
 
 curl -X POST http://34.123.254.41:5000/chat \
