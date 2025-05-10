@@ -1,4 +1,5 @@
 # DS2002 Chatbot Project
+_by Cody Liddle, Katrina Garcia, and Tamer El Aridi_
 
 A Flask-based chatbot assistant for Discovering New Music
 Ask the bot for an artist's most popular songs, and it will return their top 10 songs on Spotify.
